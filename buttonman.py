@@ -1,0 +1,10 @@
+from PySide2.QtWidgets import *
+app=QApplication([])
+window=QWidget()
+layout=QVBoxLayout()
+button=QPushButton(" I'M JUST A BUTTON MAN ")
+layout.addWidget(QLabel('Hello World !'))
+layout.addWidget(button)
+window.setLayout(layout)
+window.show()
+app.exec_()
